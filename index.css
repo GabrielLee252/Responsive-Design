@@ -1,0 +1,112 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* CSS Start*/
+.wrapper {
+    min-width: 80vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.topNav {
+    margin-top: 20%;
+    margin-bottom: 20%;
+    /* min-height: 10%; */
+    border: 1px solid red;
+}
+
+nav{
+    border: 1px solid  red;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content {
+    border: 1px solid  red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 5%;
+}
+
+.topImg {
+    border: 1px solid  red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+}
+.topImg img{
+    border: 1px solid  red;
+    max-width: 100%;
+}
+
+.imageWrapper{
+    border: 1px solid  red;
+    max-width: 80%;
+}
+
+.images {
+    border: 1px solid red;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.images img {
+    max-width: 25%;
+}
+.button-selected{
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    margin: 2px;
+}
+
+  
