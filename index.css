@@ -43,33 +43,61 @@ table {
 }
 /* CSS Start*/
 .wrapper {
-    min-width: 100vw;
+    min-width: 80vw;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid red;
 }
 
-.bottomNav {
+.topNav {
+    margin-top: 20%;
+    margin-bottom: 20%;
+    /* min-height: 10%; */
+    border: 1px solid red;
+}
+
+nav{
+    border: 1px solid  red;
     display: flex;
     flex-direction: column;
+    text-align: center;
+}
+
+.content {
+    border: 1px solid  red;
+    display: flex;
     align-items: center;
-    max-width: 80%;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 5%;
 }
 
 .topImg {
+    border: 1px solid  red;
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 80%;
 }
 .topImg img{
+    border: 1px solid  red;
     max-width: 100%;
 }
+
+.imageWrapper{
+    border: 1px solid  red;
+    max-width: 80%;
+}
+
 .images {
+    border: 1px solid red;
+    justify-content: space-evenly;
     display: flex;
     flex-wrap: wrap;
-    /* align-content: space-around; */
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 .images img {
     max-width: 25%;
@@ -77,4 +105,8 @@ table {
 .button-selected{
     color: white;
     background-color: black;
+    border-radius: 8px;
+    margin: 2px;
 }
+
+  
